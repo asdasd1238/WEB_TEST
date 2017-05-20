@@ -1,0 +1,143 @@
+html, body {
+    width: 100%;
+    height: 100%;
+}
+h1{
+  font-family: 'Gloria Hallelujah', cursive;
+  font-size:70px;
+}
+.LOGO{
+  font-family: 'Gloria Hallelujah', cursive;
+}
+
+
+
+
+.lang{
+    margin-left:0.5rem;
+    margin-right:1rem;
+    margin-top:0.8rem;
+
+}
+.lang2{
+    font-size: 1.2rem;
+    margin-top:1rem;
+}
+.lang4{
+    font-size: 1.2rem;
+    margin-top:1rem;
+    margin-right:1rem;
+    padding-top: 1rem;
+}
+
+#banner {
+    height: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-position: center;
+    background-image: url("images/background.jpg");
+    background-repeat:no-repeat;
+}
+
+@media (max-width: 575px){
+    #banner{
+        background-attachment: scroll;
+    }
+}
+#b{
+  display: none;
+}
+#banner-fg {
+    height: 100%;
+    text-align: center;
+}
+.property_image:hover{
+	-webkit-transform: scale(1.5);
+	-moz-transform: scale(1.5);
+	-o-transform: scale(1.5);
+	-ms-transform: scale(1.5);
+	transform: scale(1.5);
+	z-index: 1;
+}
+.banner-text {
+    color: #272727;
+}
+
+#banner-fg a:active {
+    color: white;
+}
+
+.logo {
+    height: 50px;
+}
+
+.navbar-offset {
+    margin-top: -5rem;
+    padding-top: 5rem;
+}
+.navbar{
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1e5799+0,7db9e8+0,7db9e8+0,7db9e8+47,7db9e8+47,7db9e8+59,2989d8+82,207cca+97 */
+background: #1e5799; /* Old browsers */
+background: -moz-linear-gradient(top, #1e5799 0%, #7db9e8 0%, #7db9e8 0%, #7db9e8 47%, #7db9e8 47%, #7db9e8 59%, #2989d8 82%, #207cca 97%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #1e5799 0%,#7db9e8 0%,#7db9e8 0%,#7db9e8 47%,#7db9e8 47%,#7db9e8 59%,#2989d8 82%,#207cca 97%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #1e5799 0%,#7db9e8 0%,#7db9e8 0%,#7db9e8 47%,#7db9e8 47%,#7db9e8 59%,#2989d8 82%,#207cca 97%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#207cca',GradientType=0 ); /* IE6-9 */
+}
+section {
+    margin-top: 4rem;
+}
+
+section h2 {
+    margin-bottom: 2rem;
+}
+
+#fultxt~.row {
+    margin-bottom: 3rem;
+}
+
+.card {
+
+	text-align:center;
+}
+
+footer {
+    margin-top: 4rem;
+    background-color: #f7f7f7;
+    padding: 4rem;
+    color: gray;
+}
+
+.property_image {
+    border-radius: 9999px;
+    margin: 2%;
+}
+
+.property {
+    text-align: center;
+    width : 25%;
+}
+#f1,#f2,#f3{
+    font-size: 1.5rem;
+    color: black;
+}
+
+#f4{
+    font-size: 1.2rem;
+}
+#feature {
+    text-align: center;
+    font-size: 3.5rem;
+	font-weight:lighter;
+}
+.btn{
+  font-weight: bold;
+}
+#subtitle{
+  font-size: 1rem;
+  color:gray;
+}
+p{
+  font-size: 1.3rem;
+}
